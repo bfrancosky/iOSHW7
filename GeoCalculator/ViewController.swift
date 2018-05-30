@@ -10,6 +10,9 @@ import CoreLocation
 
 class ViewController: UIViewController {
 
+    var entries : [LocationLookup] = []
+    
+    
     @IBOutlet weak var p1Lat: DecimalMinusTextField!
     @IBOutlet weak var p1Lng: DecimalMinusTextField!
     @IBOutlet weak var p2Lat: DecimalMinusTextField!
@@ -54,9 +57,12 @@ class ViewController: UIViewController {
         } else {
             self.bearingLabel.text = "Bearing: \((bearing * 1777.7777777778).rounded() / 100.0) mils."
         }
+        
+        entries.append(LocationLookup(origLat: p1lt, origLng: p1ln, destLat: p2lt, destLng: p2ln, timestamp: Date()))
     }
     
     @IBAction func calculateButtonPressed(_ sender: UIButton) {
+        
         self.doCalculatations()
         self.view.endEditing(true)
     }

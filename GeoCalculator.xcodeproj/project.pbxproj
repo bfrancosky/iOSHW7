@@ -18,6 +18,8 @@
 		9EDE88121E36AF3800C2F900 /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE88111E36AF3800C2F900 /* DecimalMinusTextField.swift */; };
 		9EDE88141E36B02700C2F900 /* CLLocationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE88131E36B02700C2F900 /* CLLocationExtensions.swift */; };
 		9EDE88171E36B17C00C2F900 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDE88161E36B17C00C2F900 /* CoreLocation.framework */; };
+		D365BB5B20BE1C4C002645CF /* LocationLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D365BB5A20BE1C4C002645CF /* LocationLookup.swift */; };
+		D365BB5D20BE2B04002645CF /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D365BB5C20BE2B04002645CF /* HistoryTableViewController.swift */; };
 		ECF3256E1ED691DA00510BFA /* GeoCalcTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3256D1ED691DA00510BFA /* GeoCalcTextField.swift */; };
 		ECF325701ED697D500510BFA /* GeoCalcLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3256F1ED697D500510BFA /* GeoCalcLabel.swift */; };
 		ECF325721ED6987B00510BFA /* GeoCalcButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF325711ED6987B00510BFA /* GeoCalcButton.swift */; };
@@ -58,6 +60,8 @@
 		9EDE88111E36AF3800C2F900 /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalMinusTextField.swift; sourceTree = "<group>"; };
 		9EDE88131E36B02700C2F900 /* CLLocationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocationExtensions.swift; sourceTree = "<group>"; };
 		9EDE88161E36B17C00C2F900 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D365BB5A20BE1C4C002645CF /* LocationLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationLookup.swift; sourceTree = "<group>"; };
+		D365BB5C20BE2B04002645CF /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		ECF3256D1ED691DA00510BFA /* GeoCalcTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoCalcTextField.swift; sourceTree = "<group>"; };
 		ECF3256F1ED697D500510BFA /* GeoCalcLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoCalcLabel.swift; sourceTree = "<group>"; };
 		ECF325711ED6987B00510BFA /* GeoCalcButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoCalcButton.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				9EDE87E51E36AC2C00C2F900 /* ViewController.swift */,
 				9EDE88131E36B02700C2F900 /* CLLocationExtensions.swift */,
 				9EDE87E71E36AC2C00C2F900 /* Main.storyboard */,
+				D365BB5C20BE2B04002645CF /* HistoryTableViewController.swift */,
+				D365BB5A20BE1C4C002645CF /* LocationLookup.swift */,
 				9EDE87EA1E36AC2C00C2F900 /* Assets.xcassets */,
 				9EDE87EC1E36AC2C00C2F900 /* LaunchScreen.storyboard */,
 				9EDE87EF1E36AC2C00C2F900 /* Info.plist */,
@@ -296,9 +302,11 @@
 				9EDE88121E36AF3800C2F900 /* DecimalMinusTextField.swift in Sources */,
 				9EDE88141E36B02700C2F900 /* CLLocationExtensions.swift in Sources */,
 				ECF3256E1ED691DA00510BFA /* GeoCalcTextField.swift in Sources */,
+				D365BB5D20BE2B04002645CF /* HistoryTableViewController.swift in Sources */,
 				9EDE87E61E36AC2C00C2F900 /* ViewController.swift in Sources */,
 				9EC2C62F1E4A690B009BC940 /* SettingsViewController.swift in Sources */,
 				ECF325701ED697D500510BFA /* GeoCalcLabel.swift in Sources */,
+				D365BB5B20BE1C4C002645CF /* LocationLookup.swift in Sources */,
 				9EDE87E41E36AC2C00C2F900 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
